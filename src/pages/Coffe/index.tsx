@@ -20,6 +20,7 @@ import { getUserAvatar } from "../../services/github";
 import gifs from "../../utils/gifs";
 import drums from "./../../sounds/drums.mp3";
 import secondAudio from "./../../sounds/applause.mp3";
+import { Card } from "../../components/Card";
 
 interface IPerson {
   id: number;
@@ -82,10 +83,7 @@ const Coffee = () => {
               <TitleTable>Deatecs</TitleTable>
             </BoxTitle>
             {listOfPeople.map((person) => (
-              <BoxPerson key={person.id}>
-                <Name>{person.name}</Name>
-                <Company>{person.company}</Company>
-              </BoxPerson>
+              <Card key={person.id} name={person.name} company={person.company} />
             ))}
           </Table>
           <ButtonRandom onClick={handleDraw}>Sortear</ButtonRandom>
