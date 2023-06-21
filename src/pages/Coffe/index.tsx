@@ -2,15 +2,12 @@ import { useState, useEffect, useRef } from "react";
 import listOfPeople from "../../repositores/listOfPeople";
 import {
   Box,
-  BoxPerson,
   BoxTitle,
   ButtonRandom,
-  Company,
   CompanyRandom,
   Container,
   ImgRandom,
   LoadingAnimation,
-  Name,
   NameRandom,
   PersonRandom,
   Table,

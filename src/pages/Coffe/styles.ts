@@ -46,20 +46,6 @@ export const TitleTable = styled.h1`
   line-height: 1.2;
 `;
 
-export const BoxPerson = styled.div`
-  background-color: #6b7a59;
-  border-radius: 5px;
-  padding: 5px;
-`;
-
-export const Name = styled.h1`
-  font-weight: 600;
-`;
-
-export const Company = styled.h1`
-  font-weight: 400;
-`;
-
 export const ButtonRandom = styled.button`
   font-weight: 600;
   width: 100%;
